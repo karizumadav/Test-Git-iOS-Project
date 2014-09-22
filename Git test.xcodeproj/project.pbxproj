@@ -21,6 +21,7 @@
 		1D5B711A19D0E86100B6ECEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5B70FC19D0E86000B6ECEB /* UIKit.framework */; };
 		1D5B712219D0E86100B6ECEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B712019D0E86100B6ECEB /* InfoPlist.strings */; };
 		1D5B712419D0E86100B6ECEB /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B712319D0E86100B6ECEB /* Git_testTests.m */; };
+		1D5B712F19D0EEE600B6ECEB /* DSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B712E19D0EEE600B6ECEB /* DSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1D5B711F19D0E86100B6ECEB /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		1D5B712119D0E86100B6ECEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D5B712319D0E86100B6ECEB /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		1D5B712D19D0EEE600B6ECEB /* DSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTest.h; sourceTree = "<group>"; };
+		1D5B712E19D0EEE600B6ECEB /* DSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				1D5B710D19D0E86000B6ECEB /* DSViewController.h */,
 				1D5B710E19D0E86000B6ECEB /* DSViewController.m */,
 				1D5B711019D0E86000B6ECEB /* Images.xcassets */,
+				1D5B712D19D0EEE600B6ECEB /* DSTest.h */,
+				1D5B712E19D0EEE600B6ECEB /* DSTest.m */,
 				1D5B70FF19D0E86000B6ECEB /* Supporting Files */,
 			);
 			path = "Git test";
@@ -252,6 +257,7 @@
 			files = (
 				1D5B710519D0E86000B6ECEB /* main.m in Sources */,
 				1D5B710F19D0E86000B6ECEB /* DSViewController.m in Sources */,
+				1D5B712F19D0EEE600B6ECEB /* DSTest.m in Sources */,
 				1D5B710919D0E86000B6ECEB /* DSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
